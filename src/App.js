@@ -8,7 +8,6 @@ import Portfolio from './components/Portfolio';
 import Home from './components/Home';
 import Footer from './components/Footer';
 
-
 class App extends Component {
   render() {
     return (

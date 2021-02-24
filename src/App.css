@@ -1,11 +1,11 @@
 /*Colour Setup*/
 :root {
-  --navColour: #cfcfcf;
-  --mainDark: #181818;
+  --navColour: #a0a0a0;
+  --mainDark: #242424;
   --greyDark: rgb(104, 104, 104);
   --white: #ffffff;
-  --orange: #fd9e45;
-  --teal: #43d9ff;
+  --purple: #a600cf;
+  --teal: #439bff;
 }
 .body {
   font-family: "Share Tech Mono", monospace !important;
@@ -17,7 +17,7 @@
   text-transform: uppercase !important;
   font-weight: bold;
   font-size: 3rem !important;
-  color: var(--orange);
+  color: var(--purple);
 }
 .nav-link {
   font-family: "Share Tech Mono", monospace !important;
@@ -29,17 +29,19 @@
   position: fixed;
   top: 50%;
 }
-.bg-image {
-  background: url("http://www.seekgif.com/uploads/2017/07/pics-photos-professional-background-designs-image-31.jpeg")
-    no-repeat fixed;
-  min-height: 100vh;
-  object-fit: cover;
+.bg-image img {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 .port-contain {
   border-radius: 7px;
   background-color: var(--mainDark);
   padding: 15px;
+  position: relative;
 }
 .socials-footer {
   position: fixed;

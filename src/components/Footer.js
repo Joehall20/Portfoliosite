@@ -9,7 +9,7 @@ export default class Footer extends Component {
                     <div className="socials-footer">
                         <div className="socials-icons">
                             <a href="https://github.com/Joehall20"><i className="fab fa-github-square"></i></a>
-                            <a href="mailto:TheBrushWarrior@hotmail.com"><i className="fas fa-envelope-square"></i></a>
+                            <a href="mailto:Joe.Hall20@hotmail.com"><i className="fas fa-envelope-square"></i></a>
                         </div>
                     </div>
                 </footer>
