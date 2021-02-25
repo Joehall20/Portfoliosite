@@ -14,6 +14,6 @@ export const ButtonStyled = styled.button`
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     &:hover{
-        background: var(--orange);
+        background: var(--purple);
     }
 `;

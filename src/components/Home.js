@@ -13,7 +13,7 @@ export default class Home extends Component {
                     </div>
                     <div className="container-fluid">
                         <span className="right">
-                        I enjoy the challenges of programming and design. I have spent the last few years honing my programming and artistic skills using a wide array of software and languages. I like to understand how things work and I enjoy the sense of achievement when I can say “I created that”. As such in a world where technology is so prominent, my skills and passion have guided me towards programming. I have used these skills in previous positions as SaaS Implementation Consultant, as well as in C# Game development and Mobile Platform Engineering. I also enjoy Website design and development as well as fine tuning my artistic skills in my free time.
+                            I enjoy a challenge and the sense of accomplishment when a solution is found. I am also creative and work on commissions of both art pieces and movie and game props. I am currently looking for a positon in which I can learn and expand my skills with both older and up and coming technologies.
                         </span>
                     </div>
             </div>
