@@ -6,31 +6,91 @@ export default class Portfolio extends Component {
         return (
             <div className="bg-image">
             <img src="img/background.jpg"/>
-            <div className="mx-auto p-5">
-                    <div className="port-contain">
-                            <h1 className="title">Portfolio Website</h1>
+                        {/*Portfolio Coding Website*/}
+                        <div className="mx-auto p-5">
+                            <div className="port-contain">
+                            <h1 className="title">Coding Portfolio Website</h1>
                             <p className="body">
-                                You're currently here! Portfolio site created to display my projects
+                                You're currently here! Portfolio site created to display my projects created using React, StyledComponents 
                             </p>
+                            <a href="https://github.com/Joehall20/Portfoliosite">
                                 <ButtonStyled>
                                     Live Site
                                 </ButtonStyled>
+                            </a>
+                            <a href="https://github.com/Joehall20/Portfoliosite">
                                 <ButtonStyled>
                                     github
                                 </ButtonStyled>
+                            </a>
                             </div>
                             </div>
+                        {/*E-commerce Store*/}
                         <div className="mx-auto pb-5 px-5">
                             <div className="port-contain">
-                            <h1 className="title">Art website</h1>
-                                <ButtonStyled onClick={()=>{this.href="joehall20.github.io"}}>                                
-                                    Live Site
+                            <h1 className="title">E-Commerce store</h1>
+                                <p className="body">
+                                    E-commerce store using React with PayPal Functionality (Currently Sandbox)
+                                </p>
+                                <a href="https://github.com/Joehall20/react-ecommerce-store">
+                                    <ButtonStyled>                                
+                                        Live Site
+                                    </ButtonStyled>
+                                </a>
+                                <a href="https://travellingtrooper.netlify.app/">
+                                <ButtonStyled>
+                                    github
                                 </ButtonStyled>
+                                </a>
+                            </div>
+                        </div>
+                        {/*Art Portfolio Website*/}
+                        <div className="mx-auto pb-5 px-5">
+                            <div className="port-contain">
+                            <h1 className="title">Art Portfolio website</h1>
+                                <p className="body">
+                                    First Portfolio website for showing my artworks. Made using mostly HTML and CSS with minor JavaScript for Parallaxing
+                                </p>
+                                <a href="https://joehall20.github.io/">
+                                    <ButtonStyled>                                
+                                        Live Site
+                                    </ButtonStyled>
+                                </a>
                                 <ButtonStyled>
                                     github
                                 </ButtonStyled>
                             </div>
                         </div>
+                        {/*Random Cave Generator*/}
+                        <div className="mx-auto pb-5 px-5">
+                            <div className="port-contain">
+                            <h1 className="title">Cave Generator</h1>
+                                <p className="body">
+                                    Random cave generator built for my final project at University, for this generator I used Perlin Noise maps to create a system that will create life like 2D cave layouts.
+                                </p>
+                                <a href="https://github.com/Joehall20/Cavegenerator">
+                                <ButtonStyled>
+                                    github
+                                </ButtonStyled>
+                                </a>
+                            </div>
+                        </div>
+                        {/*DeadNought Game*/}
+                        <div className="mx-auto pb-5 px-5">
+                            <div className="port-contain">
+                            <h1 className="title">Cave Generator</h1>
+                                <p className="body">
+                                    Rogue-like game created for a Gameboy GameJam as part of a 4-man team which we later took to an event called "The Big Pitch" in which teams competed for potential funding for a project. I myself worked on the Art assets and the random generation of rooms.
+                                </p>
+                                <a href="https://shatteredpixel.itch.io/deadnought">
+                                <ButtonStyled>
+                                    Live Site
+                                </ButtonStyled>
+                                </a>
+                            </div>
+                        </div>
+
+
                 </div>
         )
     }
