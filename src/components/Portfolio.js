@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import { ButtonStyled } from './Button'
 
 export default class Portfolio extends Component {
@@ -13,11 +14,11 @@ export default class Portfolio extends Component {
                             <p className="body">
                                 You're currently here! This portfolio site created to display my projects created using React, StyledComponents and the practices I learnt on my other websites 
                             </p>
-                            <a href="https://joehallportfolio.netlify.app/">
+                            <Link to="/">
                                 <ButtonStyled>
                                     Live Site
                                 </ButtonStyled>
-                            </a>
+                            </Link>
                             <a href="https://github.com/Joehall20/Portfoliosite">
                                 <ButtonStyled>
                                     github
