@@ -13,7 +13,7 @@ export default class Portfolio extends Component {
                             <p className="body">
                                 You're currently here! This portfolio site created to display my projects created using React, StyledComponents and the practices I learnt on my other websites 
                             </p>
-                            <a href="https://github.com/Joehall20/Portfoliosite">
+                            <a href="https://joehallportfolio.netlify.app/">
                                 <ButtonStyled>
                                     Live Site
                                 </ButtonStyled>
